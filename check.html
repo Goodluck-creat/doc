@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+  />
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+  />
+    <style>
+        .secound-slider{
+          width: 80vw; 
+          margin: 0 auto;
+          height: 50%;
+          
+        }
+        body{
+            background-color: black;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="secound-slider">
+      
+        <div class="card" style="background-color: blue;"><h1>1</h1></div>
+        <div class="card" style="background-color: yellow;"><h1>2</h1></div>
+        <div class="card" style="background-color: brown;"><h1>3</h1></div>
+        <div class="card" style="background-color: yellowgreen;"><h1>4</h1></div>
+        <div class="card" style="background-color: green;"><h1>5</h1></div>
+        <div class="card" style="background-color: orangered;"><h1>6</h1></div>
+        <div class="card" style="background-color: olivedrab;"><h1>7</h1></div>
+        <div class="card" style="background-color: orange;"><h1>8</h1></div>
+        <div class="card" style="background-color: black; color: white;"><h1>9</h1></div>
+        <div class="card" style="background-color: red;"><h1>10</h1></div>
+        
+      </div>
+
+
+
+      <script
+type="text/javascript"
+src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+></script>
+<script
+type="text/javascript"
+src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+></script>
+
+
+<script type="text/javascript">
+     $(document).ready(function(){
+            $('.secound-slider').slick({
+                autoplay:true,
+                arrows:true,
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                autoplay:true,
+                autoplaySpeed:4000,
+                speed:500,
+  
+
+            });
+        });
+
+</script>
+
+</body>
+</html>
